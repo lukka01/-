@@ -69,6 +69,27 @@ h2{
     margin-left: 900px;
     border-radius: 50px;
 }
+.map{
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+.map p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fb,.insta{
+    font-size: 30px;
+    color: aliceblue;
+}
+.fb:hover {
+    cursor: pointer;
+}
+.insta:hover{
+    cursor: pointer;
+}
 .ufoinfo{
     color: azure;
     font-size: 22px;
@@ -85,7 +106,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     margin: 50px auto;
-    width: 900px;
+    width: 1200px;
 }
 .products div{
    text-align: center;
@@ -209,6 +230,11 @@ h2{
     background-color: beige;
     padding: 5px;
     cursor: pointer;
+    position: relative;
+
+}
+.cart{
+    margin-left: 200px;
 }
 .kak:hover{
     border: 3px solid white;
