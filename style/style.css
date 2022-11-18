@@ -101,6 +101,75 @@ h2{
     overflow: hidden;
 }
 
+.gadaxda{
+    margin-left: 60px;
+    display: flex;
+    width: 900px;
+    cursor: pointer;
+}
+
+.section1:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+.section2:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+.section3:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+.sul{
+    margin-top: 150px;
+    margin-left: 360px; 
+    padding: 100px;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+
+}
+.section{
+    text-align: center;
+    margin: 35px;
+}
+.section img{
+    width: 400px;
+    height: 300px;
+}
+.section p{
+    color: rgb(255, 255, 255);
+}
+.contact{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 60px;
+
+}
+.contact h3{
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.contact p{
+    font-size: 18px;
+    color: rgb(213, 215, 217);
+}
+
+.options{
+    width: 600px;
+    margin-left: 700px;
+}
+.options p{
+    font-size: 22px;
+    color: rgb(197, 201, 204);
+    letter-spacing: 2px;
+}
+
+
+
+
 .owl-theme .owl-nav{
     position: absolute;
     top: 60px;
@@ -119,6 +188,13 @@ h2{
     background: rgba(0, 0, 0, 0);
 }
 
+.services{
+    color: aliceblue;
+    margin: 50px auto;
+    font-size: 46px;
+    letter-spacing: 4px;
+}
+
 
 .last {
     font-size: 30px;
@@ -133,6 +209,9 @@ h2{
     background-color: beige;
     padding: 5px;
     cursor: pointer;
+}
+.kak:hover{
+    border: 3px solid white;
 }
 
 .chatbutton{
@@ -176,6 +255,43 @@ h2{
 
 .chatboxmain{
     padding: 10px;
+}
+.order{
+    margin-left: 70px;
+    width: 200px;
+    background-color: #663399;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.order p{
+    color: #dad7d7;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.order :hover{
+    cursor: pointer;
+}
+.thelastdiv{
+    margin-top: 100px;
+    height: 150px;
+    background-image: url(../imgs/gal1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid rgb(185, 185, 185);
+    text-align: center;
+}
+.thelastdiv p{
+    margin: 60px;
+    font-size: 30px;
+    color: #e2e2e2;
+}
+.icon{
+    margin-top: 40px;
+    margin-left: 1200px;
+    font-size: 50px;
+    color: rgb(146, 72, 225);
 }
 
 
