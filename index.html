@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="უახლესი აქსესუარები და გასართობი საშუალებები ">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Cosmic shop</title>
+</head>
+<body>
+    <header>
+        <nav id="nav"></nav>
+    </header>
+    <main>
+      <section class="products">
+
+        <div class="kak">
+           <img src="imgs/moons.jpg" alt="Moon1">
+           <p>მთვარის ფერადი ლამპები</p>
+        </div>
+
+        <div class="kak">
+           <img src="imgs/moons2.jpg" alt="moon2">
+           <p>საძინებლის აქსესუარები</p>
+        </div>
+
+        <div class="kak">
+           <img src="imgs/moons 3.webp" alt="moon3">
+           <p>მთვარის ნათურა</p>
+        </div>
+
+        <div class="kak">
+           <img src="imgs/spaceship.webp" alt="spaceship">
+           <p>კოსმოსური ხომალდი</p>
+        </div>   
+        <div class="kak">
+            <img src="imgs/vader.jpg" alt="vader">
+            <p>დართ ვეიდერის ფიგურა</p>
+        </div>
+        <div class="kak">
+            <img src="imgs/blade.webp" alt="blade">
+            <p>ლაზერის მახვილი</p>
+        </div>
+
+        <div class="kak">
+            <img src="imgs/blade2.webp" alt="blades">
+            <p>ლაზერის მახვილი</p>
+        </div>
+
+        <div class="kak">
+            <img src="imgs/ship3.webp" alt="shipp">
+            <p>კოსმოსური ხომალდი</p>
+        </div>
+
+        <div class="kak">
+            <img src="imgs/blades.webp" alt="blades">
+            <p>ლაზერული მახვილები</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <p class="chatbutton" onclick="show()">
+            მოგვწერეთ შეტყობინება
+        </p>
+        <div class="chatbox" id="chatbox">
+            <div class="chatboxheader flex">
+                <p>მოგვწერეთ შეტყობინება</p>
+                <p class="close" onclick="hide()">&#215;</p>
+            </div>
+                <div class="chatboxmain">
+                    <input type="text" name="firstname" id="firstname" placeholder="თქვენი სახელი">
+                    <input type="email" name="email" id="email" placeholder="თქვენი ელ.ფოსტა">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="მოგვწერეთ თქვენი გულის ტკივილი"></textarea>
+                    <p class="send" onclick="close()">გაგზავნა</p>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
